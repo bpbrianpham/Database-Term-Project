@@ -4,5 +4,5 @@ CREATE TABLE Customers (
   phoneNumber VARCHAR(10) NULL,
   cDateRegistered DATE NULL,
   address VARCHAR(45) NULL,
-  PRIMARY KEY (cID)
+  CONSTRAINT customer_pk PRIMARY KEY (cID)
 );
