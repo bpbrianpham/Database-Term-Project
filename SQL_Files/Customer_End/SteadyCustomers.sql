@@ -4,8 +4,8 @@ CREATE TABLE SteadyCustomers (
   annualSpent FLOAT NULL,
   eMailMessages TEXT NULL,
   CONSTRAINT steady_customers_pk 
-  PRIMARY KEY (cID),
+	PRIMARY KEY (cID),
   CONSTRAINT steady_customers_fk 
-  FOREIGN KEY (cID)
-  REFERENCES Customers (cID)
+	FOREIGN KEY (cID)
+	REFERENCES Customers (cID)
 );
