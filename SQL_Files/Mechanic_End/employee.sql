@@ -1,0 +1,7 @@
+CREATE TABLE Employee (
+  empID INT NOT NULL,
+  eDOB DATE NULL,
+  ePhone VARCHAR(45) NULL,
+  eEmail VARCHAR(45) NULL,
+  eSalary FLOAT NULL,
+PRIMARY KEY (empID))
