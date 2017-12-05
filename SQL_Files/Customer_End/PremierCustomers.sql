@@ -1,6 +1,6 @@
 CREATE TABLE PremierCustomers (
   cID INT NOT NULL,
-  annualFee INT NULL,
+  annualFee FLOAT NULL,
   CONSTRAINT premier_customers_pk 
   PRIMARY KEY (cID),
   CONSTRAINT premier_customers_fk 
