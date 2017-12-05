@@ -4,4 +4,7 @@ CREATE TABLE Employee (
   ePhone VARCHAR(45) NULL,
   eEmail VARCHAR(45) NULL,
   eSalary FLOAT NULL,
-PRIMARY KEY (empID))
+PRIMARY KEY (empID));
+
+/* Employees get a 15% discount for all services */
+*/
