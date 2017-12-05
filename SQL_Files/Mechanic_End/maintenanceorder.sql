@@ -4,8 +4,8 @@ CREATE TABLE MaintenanceOrder (
   cVehicleID INT NOT NULL,
   dateOfService DATE,
   itemID INT NOT NULL,
-  CONSTRAINT maintenanceOrder_pk PRIMARY KEY (orderID),
-  CONSTRAINT maintenanceOrder_fk_1 FOREIGN KEY (cVehicleID) REFERENCES CustomerVehicle(cVehicleID),
-  CONSTRAINT maintenanceOrder_fk_2 FOREIGN KEY (empID) REFERENCES ServiceTechnician(empID)
+  CONSTRAINT maintOrder_pk PRIMARY KEY (orderID),
+  CONSTRAINT maintOrder_cVehicle_fk FOREIGN KEY (cVehicleID) REFERENCES CustomerVehicle(cVehicleID),
+  CONSTRAINT maintOrder_sTech_fk FOREIGN KEY (empID) REFERENCES ServiceTechnician(empID)
   );
 
