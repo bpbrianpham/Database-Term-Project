@@ -7,6 +7,8 @@ CREATE TABLE VehicleModelInfo (
 	CONSTRAINT vehicleInfo_pk PRIMARY KEY(myVehicleID)
 );
 
+ALTER TABLE VehicleModelInfo myVehicleID mVehicleID INTEGER NOT NULL;
+
 /* -------
 still working on inserting the data
 ------- */
