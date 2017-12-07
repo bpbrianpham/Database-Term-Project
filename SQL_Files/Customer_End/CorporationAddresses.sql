@@ -10,7 +10,7 @@ CREATE TABLE CorporationAddresses (
 );
 
 INSERT INTO CorporationAddresses
-	(cID,	address,		addressType) VALUES
+	(cID,	address,											addressType) VALUES
 	(42,	'1342 Drag Str #451, Los Angeles CA 99999',			'P.O. Box'),
     (42,	'3214 Dart Blvd, Los Angeles CA 93214',				'Regular'),
     (42,	'6532 Cake Ln Suite 11, Los Angeles CA 99423',		'Suite'),
