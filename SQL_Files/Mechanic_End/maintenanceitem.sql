@@ -4,3 +4,5 @@ CREATE TABLE MaintenanceItem (
   itemPrice FLOAT,
   CONSTRAINT maintItem_pk PRIMARY KEY (itemID)
   );
+  
+  
