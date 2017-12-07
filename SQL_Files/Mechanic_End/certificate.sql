@@ -4,3 +4,7 @@ CREATE TABLE Certificate (
   CONSTRAINT certif_pk PRIMARY KEY (certificate),
   CONSTRAINT certif_mech_fk FOREIGN KEY(mechID) REFERENCES Mechanic(mechID)
 );
+
+INSERT INTO Skill() VALUES
+	();
+    
