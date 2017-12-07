@@ -1,8 +1,7 @@
 CREATE TABLE Mechanic (
   mechID INT NOT NULL,
-  empID INT NULL,
   CONSTRAINT mech_pk PRIMARY KEY (mechID),
-  CONSTRAINT mech_emp_fk FOREIGN KEY(empID) REFERENCES Employee(empID)
+  CONSTRAINT mech_emp_fk FOREIGN KEY(mechID) REFERENCES Employee(empID)
 );
 
 /*

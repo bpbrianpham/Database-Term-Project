@@ -1,6 +1,6 @@
 CREATE TABLE ServiceTechnician (
-  empID INT NOT NULL,
+  sTechID INT NOT NULL,
   office VARCHAR(45),
-  CONSTRAINT sTech_pk PRIMARY KEY (empID),
-  CONSTRAINT sTech_emp_fk FOREIGN KEY(empID) REFERENCES Employee(empID)
+  CONSTRAINT sTech_pk PRIMARY KEY (sTechID),
+  CONSTRAINT sTech_emp_fk FOREIGN KEY(sTechID) REFERENCES Employee(empID)
 );
