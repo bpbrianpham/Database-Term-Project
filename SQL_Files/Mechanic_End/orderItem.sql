@@ -7,3 +7,4 @@ CREATE TABLE OrderItem (
   CONSTRAINT orderItem_maintOrder_fk FOREIGN KEY (orderID) REFERENCES MaintenanceOrder(orderID),
   CONSTRAINT orderItem_maintItem_fk FOREIGN KEY (itemID) REFERENCES MaintenanceItem(itemID)
   );
+
