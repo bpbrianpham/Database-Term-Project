@@ -1,9 +1,8 @@
-CREATE TABLE ProspectiveCustomers (
+CREATE TABLE cecs323sec3og12.ProspectiveCustomers (
 	timesContact INTEGER NOT NULL,
 	isActiveMember VARCHAR(3) NOT NULL,
 	cID INTEGER NOT NULL,
 	rID INTEGER NOT NULL,
-	CONSTRAINT pc_cID_fk FOREIGN KEY (cID) REFERENCES Referrals (cID),
-	CONSTRAINT pc_rID_fk FOREIGN KEY (rID) REFERENCES Referrals (rID),
+	CONSTRAINT pc_cID_fk FOREIGN KEY (cID, rID) REFERENCES Referrals (cID, rID), 
 	CONSTRAINT pc_pk PRIMARY KEY (rID)
 );
