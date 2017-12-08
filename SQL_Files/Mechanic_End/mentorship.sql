@@ -26,14 +26,14 @@ CREATE TABLE Mentorship (
 */
 
 INSERT INTO Mentorship(mentorID, menteeID, skillTaught, startDate, endDate) VALUES
-	(11, 15, 'air-conditioning'), 	   /* 11 certified in air-conditioning */
-	(13, 14, 'electrical systems'),    /* 13 certified in electrical systems */
-    (13, 20, 'electrical systems'),    
-    (15, 12, 'brakes'), 			   /* 15 certified in brakes*/
-	(16, 15, 'transmission');		   /* 16 certified in transmission */
-    (18, 20, 'computer systems'), 	   /* 18 certified in computer-systems */
-    (18, 11, 'computer systems'), 
-	(20, 14, 'front-end')			   /* 20 certified in front-end */
+	(11, 15, 'air-conditioning', '2017-01-30', '2017-03-23' ), 	   /* 11 certified in air-conditioning */
+	(13, 14, 'electrical systems', '2016-11-08', '2017-11-09'),    /* 13 certified in electrical systems */
+    (13, 20, 'electrical systems', '2017-11-10', '2017-11-11'),    
+    (15, 12, 'brakes', '2014-10-14', '2017-01-23'),  			   /* 15 certified in brakes*/
+	(16, 15, 'transmission', '2017-12-01', null),   	   		   /* 16 certified in transmission */
+	(18, 11, 'computer systems', '1990-05-17', '1990-05-19'), 
+    (18, 20, 'computer systems', '2017-08-30', null), 	   /* 18 certified in computer-systems */
+	(20, 14, 'front-end', '2015-10-10', null);			   /* 20 certified in front-end */
     
    
     
