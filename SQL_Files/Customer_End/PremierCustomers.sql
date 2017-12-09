@@ -8,6 +8,12 @@ CREATE TABLE PremierCustomers (
 	REFERENCES Customers (cID)
 );
 
+/*
+  simple formula for calculating the monthly payment for premier customers
+  ((annualMileage * 5) / correspondingVehicleMaintenanceIntervals) / 12)
+
+*/
+
 INSERT INTO PremierCustomers
 	(cID,	annualFee) VALUES
     (01,	),
