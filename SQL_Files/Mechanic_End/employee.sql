@@ -9,7 +9,6 @@ CREATE TABLE Employee (
   );
 
 /* Employees get a 15% discount for all services */
-  
 
 INSERT INTO Employee (empID, eName, eDOB, ePhone, eEmail, eSalary) VALUES
 	(1, 'Arlan Steward', '1995/12/10', '714-564-5487', 'asteward0@gmail.com', 33000),
@@ -83,7 +82,10 @@ INSERT INTO Employee (empID, eName, eDOB, ePhone, eEmail, eSalary) VALUES
 (67,'Corby Noyes','1973/05/05','424-718-8304','cnoyes1u@intel.com',56000),
 (68,'Lothaire McFadin','1973/10/15','186-612-7405','lmcfadin1v@ted.com',54000),
 (69,'Claresta Plail','1993/08/10','657-393-8462','cplail1w@eepurl.com',46000),
-(70,'Arlee Pfaffel','1957/09/06','182-813-3477','apfaffel1x@msn.com',46000),
+(70,'Arlee Pfaffel','1957/09/06','182-813-3477','apfaffel1x@msn.com',46000);
+
+
+/*
 (71,'Lewie Bradnam','1978/09/03','962-132-1984','lbradnam1y@spotify.com',46000),
 (72,'Liliane Haggata','1975/01/12','320-702-4707','lhaggata1z@blogtalkradio.com',47000),
 (73,'Klara Gehrtz','1969/01/14','821-610-2541','kgehrtz20@sitemeter.com',48000),
@@ -214,5 +216,5 @@ INSERT INTO Employee (empID, eName, eDOB, ePhone, eEmail, eSalary) VALUES
 (198,'Case Ropp','1964/05/04','595-483-3805','cropp5h@wired.com',53000),
 (199,'Sherm Becom','1973/12/08','423-446-0522','sbecom5i@typepad.com',57400),
 (200,'Merill Durrans','1960/01/03','356-864-1901','mdurrans5j@stanford.edu',53000);
-    
+*/
 
