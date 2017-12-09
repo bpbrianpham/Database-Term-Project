@@ -8,3 +8,9 @@ CREATE TABLE OrderItem (
   CONSTRAINT orderItem_maintItem_fk FOREIGN KEY (itemID) REFERENCES MaintenanceItem(itemID)
   );
 
+
+INSERT INTO OrderItem
+	(mechID, orderID, itemID) VALUES
+    (11, 200, 50), (11, 200, 59), (11, 201, 67),
+    (12, 200, 54), (12, 204, 55), 
+    

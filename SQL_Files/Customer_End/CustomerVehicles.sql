@@ -18,7 +18,6 @@ CREATE TABLE CustomerVehicles (
 /* -------
 still working on inserting the data
 ------- */
-
 INSERT INTO CustomerVehicles
 	(cID, cVehicleID, myVehicleID, mileage, vehicleDateRegistered
 	estimatedAnnualMileage, packagePrice, packageName) VALUES
