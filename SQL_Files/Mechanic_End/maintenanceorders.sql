@@ -9,4 +9,3 @@ CREATE TABLE MaintenanceOrders (
   CONSTRAINT maintOrder_cVehicle_fk FOREIGN KEY (cVehicleID) REFERENCES CustomerVehicles(cVehicleID),
   CONSTRAINT maintOrder_sTech_fk FOREIGN KEY (sTechID) REFERENCES ServiceTechnician(sTechID)
   );
-  
