@@ -9,7 +9,7 @@ CREATE TABLE ProspectContacts (
 INSERT INTO ProspectContacts 
 	(rID, contactDateTime, contactType)
 	VALUES
-	(1, '2017-12-09', 'email'),
-	(2, '2017-12-15', 'phone'),
-	(3, '2017-12-16', 'mail'),
-	(4, '2017-12-17', 'email');
+	(1, '2017-12-09 12:03:45', 'email'),
+	(2, '2017-12-15 12:34:52', 'phone'),
+	(3, '2017-12-16 12:13:45', 'mail'),
+	(4, '2017-12-17 13:33:45', 'email');
