@@ -78,7 +78,7 @@ INSERT INTO Skill(mechID, skill) VALUES
 
 	(35, 'electrical systems'),(35, 'vehicle refinishing'),(35, 'air-conditioning'),
     
-	(36, 'body-work'),(36, 'ignition-systems'),(36, 'air-conditioning'),(36, 'ignition-systems'),(36, 'diagnostics'),(36, 'electrical systems'),
+	(36, 'body-work'),(36, 'ignition-systems'),(36, 'air-conditioning'),(36, 'diagnostics'),(36, 'electrical systems'),
     
 	(37, 'air-conditioning'),(37, 'brakes'),(37, 'transmission'),
     
@@ -91,13 +91,13 @@ INSERT INTO Skill(mechID, skill) VALUES
     
 	(41, 'brakes'),(41, 'transmission'),(41, 'vehicle refinishing'),(41, 'diagnostics'),
     
-	(42, 'ignition systems'),(42, 'diagnostics'),(42, 'transmission'),(42, 'ignition-systems'),
+	(42, 'ignition systems'),(42, 'diagnostics'),(42, 'transmission'),
     
 	(43, 'transmission'),(43, 'ignition-systems'),(43, 'air-conditioning'),
     
 	(44, 'air-conditioning'),(44, 'brakes'),
     
-	(45, 'body-work'),(45, 'ignition-systems'),(45, 'air-conditioning'),(45, 'ignition-systems'),(45, 'electrical-systems'),
+	(45, 'body-work'),(45, 'ignition-systems'),(45, 'air-conditioning'),(45, 'electrical-systems'),
 
     (46, 'air-conditioning'),(46, 'transmission'),
     
@@ -105,13 +105,13 @@ INSERT INTO Skill(mechID, skill) VALUES
     
 	(48, 'diagnostics'),(48, 'vehicle refinishing'),(48, 'air-conditioning'),(48, 'brakes'),
 
-	(49, 'vehicle refinishing'),(49, 'air-conditioning'),(49, 'electrical systems'),(49, 'body-work'),(49, 'ignition-systems'),(49,'air-conditioning'),
+	(49, 'vehicle refinishing'),(49, 'air-conditioning'),(49, 'electrical systems'),(49, 'body-work'),(49, 'ignition-systems'),
 
 	(50, 'body-work'),
     
 	(51, 'air-conditioning'),(51, 'brakes'),(51, 'diagnostics'),
     
-	(52, 'engine-repair'),(52, 'body-work'),(52, 'ignition-systems'),(52, 'electrical systems'),(52, 'computer systems'), (52, 'ignition systems'),
+	(52, 'engine-repair'),(52, 'body-work'),(52, 'ignition-systems'),(52, 'electrical systems'),(52, 'computer systems'),
     
 	(53, 'ignition-systems'),(53, 'air-conditioning'),
     
