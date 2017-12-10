@@ -9,12 +9,18 @@ Business rules.
 
 */
 
-CREATE TABLE ProspectiveCustomers (
+CREATE TABLE cecs323sec3og12.ProspectiveCustomers (
 	timesContact INTEGER,
 	isActiveMember bool,
 	cID INTEGER NOT NULL,
 	rID INTEGER NOT NULL,
-	CONSTRAINT customers_fk FOREIGN KEY (cID) REFERENCES Customers,
-	CONSTRAINT referrals_fk FOREIGN KEY (rID) REFERENCES Referrals,
+	CONSTRAINT prospC_referrals_fk FOREIGN KEY (cID, rID) REFERENCES Referrals (cID, rID),
 	CONSTRAINT pc_pk PRIMARY KEY (rID)
 );
+
+INSERT INTO ProspectiveCustomers (timesContact, isActiveMember, cID, rID)
+	VALUES
+	(1, 0, 6, 1),
+	(1, 1, 12, 2),
+	(1, 0, 15, 3),
+	(1, 1, 21, 4);

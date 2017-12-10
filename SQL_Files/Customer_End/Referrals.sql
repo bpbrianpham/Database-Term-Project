@@ -10,7 +10,7 @@ CREATE TABLE cecs323sec3og12.Referrals (
 	referralDate DATE NOT NULL,
 	cID INTEGER NOT NULL,
 	rID INTEGER NOT NULL,
-	CONSTRAINT customers_fk FOREIGN KEY (cID) REFERENCES Customers (cID),
+	CONSTRAINT customers_fk FOREIGN KEY (cID) REFERENCES Referrals (cID),
 	CONSTRAINT referral_pk PRIMARY KEY (cID, rID)
 );
 
