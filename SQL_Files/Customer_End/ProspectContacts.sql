@@ -1,7 +1,7 @@
-CREATE TABLE cecs323sec3og12.ProspectContacts (
+CREATE TABLE ProspectContacts (
 	rID INTEGER NOT NULL,
 	contactDateTime DATETIME NOT NULL,
 	contactType VARCHAR(50),
 	CONSTRAINT prospContacts_pk PRIMARY KEY (rID),
-	CONSTRAINT referrals_fk FOREIGN KEY (rID) REFERENCES Referrals (rID)
+	CONSTRAINT referrals_fk FOREIGN KEY (rID) REFERENCES ProspectiveContacts (rID)
 );

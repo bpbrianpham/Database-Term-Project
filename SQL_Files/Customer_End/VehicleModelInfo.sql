@@ -1,5 +1,5 @@
 CREATE TABLE VehicleModelInfo (
-	myVehicleID INTEGER NOT NULL,
+	mVehicleID INTEGER NOT NULL,
 	make VARCHAR(50) NOT NULL,
 	model VARCHAR(50) NOT NULL,
 	maintanenceInterval INTEGER NOT NULL,
@@ -7,14 +7,12 @@ CREATE TABLE VehicleModelInfo (
 	CONSTRAINT vehicleInfo_pk PRIMARY KEY(myVehicleID)
 );
 
-ALTER TABLE VehicleModelInfo myVehicleID mVehicleID INTEGER NOT NULL;
-
 /* -------
-still working on inserting the data
+inserted data
 ------- */
 
 INSERT INTO cecs323sec3og12.VehicleModelInfo 
-    (myVehicleID, 	make, 			model, 				maintanenceInterval, 	yearMade) VALUES
+    (mVehicleID, 	make, 			model, 				maintanenceInterval, 	yearMade) VALUES
 	(1, 			'Toyota', 		'Corolla', 			12000, 					'2017'),
 	(2, 			'Toyota', 		'Camry', 			20000, 					'2002'),
 	(3, 			'Jeep', 		'Wrangler', 		10000, 					'2012'),
