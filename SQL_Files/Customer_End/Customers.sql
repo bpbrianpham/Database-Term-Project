@@ -60,6 +60,21 @@ INSERT INTO Customers
     (47,	'doors@gmail.com',		7373737373 ,	'2017-02-20',		'8743 Grey Blvd, Los Angeles, CA 99549'),
     (48,	'windows@gmail.com',	7564332756 ,	'2017-11-03',		'1327 Cloud Lane, Los Angeles, CA 79432'),
     (49,	'macint@gmail.com',		8765465778 ,	'2017-12-22',		'2227 Sora Way, Los Angeles, CA 25329'),
-    (50,	'linux@gmail.com',		2343254324 ,	'2017-11-14',		'1117 Link Str, Los Angeles, CA 53259');
-    
+    (50,	'linux@gmail.com',		2343254324 ,	'2017-11-14',		'1117 Link Str, Los Angeles, CA 53259'),
+    (51,    'bravo@gmail.com',      8732134324,     '2017-12-01',       '9121 New Str, Los Angeles, CA 53259'),
+    (52,    'dean@gmail.com',       2321244324,     '2017-12-08',       '1417 Old Str, Los Angeles, CA 53259'),
+    (53,    'mcqueen@gmail.com',    2143254234,     '2017-12-10',       '4177 Cool Str, Los Angeles, CA 53259'),
+    (54,    'brando@gmail.com',     7333274321,     '2017-12-11',       '7517 Bro Str, Los Angeles, CA 53259');
+
+
+
+
+
+
+
+
+
+
+
+
     
