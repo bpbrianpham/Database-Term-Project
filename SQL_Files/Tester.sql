@@ -10,7 +10,9 @@ Testing scenarios:
 /*
 2.	For each service visit, list the total cost to the customer for that visit.
 */
-
+SELECT dateOfService, cVehicleID, SUM(itemPrice) AS TotalCost FROM MaintenanceOrders NATURAL JOIN (OrderItem NATURAL JOIN MaintenanceItem NATURAL JOIN MaintenancePackages) WHERE packID = 0 GROUP BY dateOfService, cVehicleID
+UNION
+SELECT dateOfService, cVehicleID, SUM(packagePrice) AS TotalCost FROM MaintenanceOrders NATURAL JOIN (OrderItem NATURAL JOIN MaintenanceItem NATURAL JOIN MaintenancePackages) WHERE packID != 0 GROUP BY dateOfService, cVehicleID;
 
 /*
 3.	List the top three customers in terms of their net spending for the past two years, 
