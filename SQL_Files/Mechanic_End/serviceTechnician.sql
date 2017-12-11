@@ -11,6 +11,9 @@ INSERT INTO ServiceTechnician(sTechID, office) VALUES
 			(5, 'Glacier Hill'), (6, 'Glacier Hill'), 
             (7, 'Coconut Street'), (8, 'Coconut Street'), 
             (9, 'Coconut Street'),(10, 'Bamboo Street');
+
+INSERT INTO ServiceTechnicians(sTechID, office) VALUES
+			(71, 'Headquarts Ave');
 																	
 																	
 
