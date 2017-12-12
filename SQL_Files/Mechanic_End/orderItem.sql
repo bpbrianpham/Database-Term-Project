@@ -8,7 +8,8 @@ CREATE TABLE OrderItem (
   CONSTRAINT orderItem_maintItem_fk FOREIGN KEY (itemID) REFERENCES MaintenanceItem(itemID)
   );
   
-INSERT INTO OrderItem
+INSERT INTO OrderItems(mechID, orderID, itemID) VALUES (61, 206, 57);
+INSERT INTO OrderItems
 	(mechID, orderID, itemID) VALUES
     (11, 200, 50), (11, 201, 59), (11, 202, 67),	
     (12, 203, 54), (12, 204, 50), (12, 244, 62),
@@ -40,7 +41,7 @@ INSERT INTO OrderItem
     (29, 219, 51), (29, 219, 53), (29, 219, 54),
     (30, 219, 55), (30, 219, 61), (30, 219, 63),
     
-    (31, 220, 58), (31, 221, 64), (30, 222, 50),
+    (31, 220, 58), (31, 221, 64), (31, 222, 50),
     (32, 222, 51), (32, 222, 52), (32, 222, 53),
     
     (33, 222, 57), (33, 222, 60), (33, 222, 61),
@@ -85,7 +86,7 @@ INSERT INTO OrderItem
     (59, 243, 62), (59, 244, 55), 
     (60, 245, 52),
     
-    (61, 246, 50), 
+    (61, 246, 50), (61, 206, 57),
     (62, 246, 51), (62, 246, 52),
     
     (63, 246, 53), (63, 246, 57),

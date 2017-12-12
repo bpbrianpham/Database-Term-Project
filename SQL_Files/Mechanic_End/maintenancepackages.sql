@@ -11,3 +11,4 @@ CREATE TABLE MaintenancePackages (
     ("Road Trip Ready", 138.00, 101),
     ("Silver Package", 135.00, 102),
     ("Gold Package", 220.00, 103);
+    

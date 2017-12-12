@@ -19,7 +19,13 @@ CREATE TABLE Skill (
 	computer systems
 	ignition systems
 */
-INSERT INTO Skill(mechID, skill) VALUES
+UPDATE Skills SET skill = 'electrical systems' WHERE skill = 'electrical-systems';
+
+INSERT INTO Skills(mechID, skill) VALUES 
+(29, 'tune-up'), (36, 'tune-up'), (39, 'tune-up'), (63, 'tune-up'), (17, 'tune-up');
+
+
+INSERT INTO Skills(mechID, skill) VALUES
 	(11, 'air-conditioning'), (11, 'diagnostics'), (11, 'engine-repair'),
     (11, 'transmission'), (11, 'brakes'), (11, 'steering and suspension'),
     
