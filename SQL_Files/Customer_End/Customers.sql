@@ -67,7 +67,8 @@ INSERT INTO Customers
     (54,    'brando@gmail.com',     7333274321,     '2017-12-11',       '7517 Bro Str, Los Angeles, CA 53259');
 
 
-
+ALTER TABLE Customers ADD cYearMembership INT NULL;
+UPDATE Customers SET cYearMembership = 1;
 
 
 
