@@ -24,3 +24,12 @@ INSERT INTO ProspectiveCustomers (timesContact, isActiveMember, cID, rID)
 	(1, 1, 12, 2),
 	(1, 0, 15, 3),
 	(1, 1, 21, 4);
+    
+INSERT INTO ProspectiveCustomers (timesContact, isActiveMember, cID, rID)
+	VALUES
+    (3, 0, 29, 5),
+    (6, 0, 44, 6),
+    (3, 0, 32, 7),
+    (5, 1, 28, 8),
+    (9, 1, 7, 9),
+    (4, 0,  17, 10);
